@@ -43,7 +43,7 @@
 #include "bsp_beacon.h"    // board support package header for hardware setup
 #include "sx1276_driver.h" // sx1276 radio driver header
 
-/* Beacon Configuration Parameters */
+/* USER CONFIGURATION PARAMETERS */
 #define BEACON_FREQUENCY_HZ (144200000UL) // target rf frequency in Hz (144.2 MHz RAC 2m simplex)
 #define BEACON_CALLSIGN "CALLSIGN"        // callsign or ID string to transmit in morse code
 #define BEACON_MESSAGE "ROCKET BKN"       // message to follow the callsign every interval minutes (suggest add "No RX")
