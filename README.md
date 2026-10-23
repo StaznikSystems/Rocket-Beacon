@@ -26,7 +26,7 @@ An ultra-compact, low-power Morse code beacon designed for VHF/UHF rocket, high-
 | Board Dimensions | 12x27 mm |
 | PCB Thickness (no components) | 1.6 mm |
 | Layer Count | 2 Layers |
-| Weight | Scale shows 0 so call it 1.5 g with the antenna |
+| Weight | ~ 1.5 g with the antenna |
 | RF Connector | Raw Pad that you solder to |
 | Mounting Holes | 2x M1.2 (the gnd header acts as the other one) |
 
