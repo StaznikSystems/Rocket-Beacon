@@ -30,7 +30,7 @@ An ultra-compact, low-power Morse code beacon designed for VHF/UHF rocket, high-
 | RF Connector | Raw Pad that you solder to |
 | Mounting Holes | 2x M1.2 (the gnd header acts as the other one) |
 
-The 3D model can be found in [`hardware/3DModel`](hardware/3DModel)
+The 3D model can be found in [`hardware/3dModel`](hardware/3dModel)
 
 ## Legal and Regulatory Compliance (Canada)
 
@@ -85,8 +85,8 @@ Now I don't recommend touching anything else because the code is 7.99 KB and tha
 
 ### 1. Ordering PCBs
 
-1. Download the zipped production files from [`hardware/ManufacturingOutput.zip`](hardware/ManufacturingOutput.zip).
-2. Upload the `.zip` archive to any standard PCB manufacturer (e.g., JLCPCB, PCBWay, Elecrow).
+1. Download the zipped production files from [`hardware/manufacturingFiles`](hardware/manufacturingFiles).
+2. Upload the two `.zip` archive to any standard PCB manufacturer (e.g., JLCPCB, PCBWay, Elecrow).
 3. Use the following recommended fabrication settings:
    * **Layers:** 2
    * **Base Material:** FR-4
@@ -135,10 +135,16 @@ pio run -t upload
 
 ## Hardware Files
 
-* [`hardware/Documentation/Schematic.pdf`](hardware/Documentation/Schematic.pdf) - Full circuit schematic
-* [`hardware/ManufacturingOutput.zip`](hardware/ManufacturingOutput.zip) - Manufacturing Gerber files
+* [`hardware/Documentation/Schematic.pdf`](hardware/documentation/Schematic.pdf) - Full circuit schematic
+* [`hardware/manufacturingFiles`](hardware/manufacturingFiles) - Manufacturing Gerber files
 * [`hardware/BOM/BOM.csv`](hardware/BOM/BOM.xlsx) - Bill of materials
 
-## License
+## DISCLAIMER & LICENSING
 
-This project was designed by Goran Staznik and licensed to Space Concordia Solid Rocketry for team and competition use. Hardware schematics, layouts, and firmware are shared freely under the CC BY-NC-SA 4.0 license for individual makers, hams, hobbyists, and other student rocketry teams (except for McGill) to build, modify, and learn from. Commercial production, sale, or use by corporate entities is strictly prohibited without prior written permission.
+Copyright © 2026 Goran Staznik. All rights reserved except as expressly licensed below.
+
+Unless otherwise stated, the hardware design files, schematics, PCB layouts, firmware, and associated documentation for this project are made available under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license. Individuals, hobbyists, makers, and educational teams may study, build, modify, and share these materials for non-commercial purposes, subject to the terms of the license.
+
+Commercial production, distribution, sale, or other commercial use of these designs or derivative works requires separate written authorization from Goran Staznik, operating under the Staznik Systems name. Commercial licensing inquiries may be directed to Staznik Systems.
+
+These designs are provided “as-is,” without warranties regarding their reliability, functionality, or fitness for a particular purpose, to the extent permitted by law. Users are responsible for validating designs and implementing appropriate safety measures before use.
